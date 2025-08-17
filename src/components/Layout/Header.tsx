@@ -23,12 +23,11 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3 group">
-            <div className="p-1.5 sm:p-2.5 bg-gradient-to-r from-primary-500 to-primary-600 rounded-lg sm:rounded-xl group-hover:shadow-glow transition-all duration-300 group-hover:scale-105">
-              <Zap className="h-5 w-5 sm:h-7 sm:w-7 text-white" />
-            </div>
-            <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-500 dark:from-primary-400 dark:to-primary-300 bg-clip-text text-transparent">
-              ASCQUABAY
-            </span>
+           <img
+    src="/img/image-removebg-preview.png"
+    alt="ASCQUABAY Logo"
+    className="h-8 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+  />
           </Link>
 
           {/* Desktop Navigation */}
