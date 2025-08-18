@@ -26,7 +26,7 @@ const Header: React.FC = () => {
            <img
     src="/img/image-removebg-preview.png"
     alt="ASCQUABAY Logo"
-    className="h-22 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+    className="h-36 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
   />
           </Link>
 
